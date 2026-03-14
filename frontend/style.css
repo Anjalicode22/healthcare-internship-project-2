@@ -1,0 +1,104 @@
+body{
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg,#e3f2fd,#ffffff);
+}
+
+/* Sidebar */
+.sidebar{
+position:fixed;
+left:0;
+top:0;
+width:230px;
+height:100%;
+background:#0d47a1;
+padding-top:20px;
+color:white;
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.sidebar a:hover{
+background:#1565c0;
+}
+
+/* Main Content */
+.main-content{
+margin-left:250px;
+padding:30px;
+}
+
+/* Card Container */
+.container{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Inputs */
+input, select{
+width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+padding:10px 20px;
+background:#1565c0;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0d47a1;
+}
+
+/* Dashboard Cards */
+.dashboard{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-bottom:20px;
+}
+
+.card{
+flex:1;
+min-width:180px;
+padding:20px;
+border-radius:12px;
+color:white;
+text-align:center;
+}
+
+.total{background:#1565c0;}
+.low{background:green;}
+.medium{background:orange;}
+.high{background:red;}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th, td{
+border:1px solid #ccc;
+padding:8px;
+text-align:center;
+}

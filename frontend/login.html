@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" style="width:400px;margin:120px auto;">
+<h2 style="text-align:center;">Healthcare Login</h2>
+
+<input type="text" id="username" placeholder="Enter Username">
+<button onclick="login()">Login</button>
+
+</div>
+
+<script>
+function login(){
+let user = document.getElementById("username").value;
+localStorage.setItem("currentUser", user);
+
+if(user === "admin"){
+window.location="admin.html";
+}else{
+window.location="patient.html";
+}
+}
+</script>
+
+</body>
+</html>
