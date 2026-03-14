@@ -15,9 +15,15 @@ Data Analysis Techniques
 Features
 
 Personalized healthcare recommendations
+
 Disease prediction based on health indicators
+
 Medicine recommendation system
+
 Analysis of vital health parameters
+
 Data preprocessing and feature engineering
+
 Feedback-based improvement of recommendations
+
 Structured healthcare dataset analysis
