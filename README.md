@@ -6,10 +6,15 @@ By using machine learning techniques, the system helps in early disease detectio
 Technologies Used
 
 Python
+
 Pandas
+
 NumPy
+
 Scikit-learn
+
 Machine Learning Algorithms
+
 Data Analysis Techniques
 
 Features
